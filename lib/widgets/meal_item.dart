@@ -29,6 +29,7 @@ class MealItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool click = true;
     return InkWell(
       onTap: () => selectMeal(context),
       child: Card(
@@ -95,11 +96,6 @@ class MealItem extends StatelessWidget {
                         Icon(Icons.check_circle_outline),
                     ],
                   ),
-                  Row(
-                    children: <Widget>[
-                      Icon(Icons.shopping_cart),
-                    ],
-                  )
                 ],
               ),
             ),

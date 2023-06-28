@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restarurant_app/screens/categories_screen.dart';
 import 'package:restarurant_app/screens/home_screen.dart';
-import './favourites_screen.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:google_fonts/google_fonts.dart';
 
